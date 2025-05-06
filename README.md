@@ -1,12 +1,32 @@
-# React + Vite
+# E Commerce Template (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tools & Technologies Used
 
-Currently, two official plugins are available:
+1. React
+2. Bootstrap
+3. Bootstrap Icons
+4. React Bootstrap
+5. Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
 
-## Expanding the ESLint configuration
+### Install Node JS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Refer to https://nodejs.org/en/ to install nodejs
+
+## Cloning and Running the Application in local
+
+Clone the project into local
+
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+
+```bash
+npm install
+```
+
+In order to run the application Type the following command
+
+```bash
+npm run dev
+
+```
