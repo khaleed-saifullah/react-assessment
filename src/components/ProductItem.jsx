@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ProductItem = ({
   product_name,
@@ -10,6 +10,10 @@ const ProductItem = ({
   product_discount,
   is_sale,
 }) => {
+  const [quantity, setQuantity] = useState(0);
+
+  const increment = () => setQuantity((q) => q + 1);
+  const decrement = () => setQuantity((q) => (q > 0 ? q - 1 : 0));
   return (
     <>
       <div className="product-sample">
@@ -79,6 +83,15 @@ const ProductItem = ({
           <span className="product-discount">({product_discount}%)</span>
         </div>
         <div className="product-button">
+          <div className="product-quantity">
+            <button className="qty-btn" onClick={decrement}>
+              −
+            </button>
+            <span className="qty-display">{quantity}</span>
+            <button className="qty-btn" onClick={increment}>
+              +
+            </button>
+          </div>
           <div className="product-cart-button">
             <i className="bi bi-bag" />
             Add
