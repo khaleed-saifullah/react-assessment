@@ -21,7 +21,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-one.png"
+              product_image_src="/images/product-one.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -33,7 +33,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-two.png"
+              product_image_src="/images/product-two.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -45,7 +45,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-three.png"
+              product_image_src="/images/product-three.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -56,7 +56,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-four.png"
+              product_image_src="/images/product-four.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -67,7 +67,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-two.png"
+              product_image_src="/images/product-two.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -79,7 +79,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-four.png"
+              product_image_src="/images/product-four.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -90,7 +90,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-one.png"
+              product_image_src="/images/product-one.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -101,7 +101,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-three.png"
+              product_image_src="/images/product-three.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}
@@ -112,7 +112,7 @@ const ProductLists = () => {
           <div className="col-md-4">
             <ProductItem
               product_name="Nivea Soft Jar Moisturising Cream"
-              product_image_src="/src/assets/images/product-two.png"
+              product_image_src="/images/product-two.png"
               product_rating_star={5}
               product_rating_count={16}
               product_new_price={1250.0}

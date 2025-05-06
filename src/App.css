@@ -139,7 +139,7 @@ body {
 }
 
 .hero {
-  background: url(/src/assets/images/hero-bg.png);
+  background: url(/images/hero-bg.png);
   background-size: cover;
   background-position: center;
   padding: 60px 0;
